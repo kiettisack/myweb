@@ -65,5 +65,77 @@
   </div>
 </div>
 	</div>
+	<!------------------popup dang nhap--------------------->
+	<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="dangnhap" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Đăng nhập</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+        	<input type="email" name="ten" class="form-control"
+        	placeholder="Tên">
+        	<br>
+        	<input type="password" name="pass" class="form-control"
+        	placeholder="Mắt khậu">
+        	<br>
+        	<input type="submit" value="Đăng nhập" class="btn btn-info btn-xs btn-block">
+        </form>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<!--------------------popupdang ky-------------------->
+<div class="modal fade" id="dangky" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Đăng ký</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+        	<input type="text" name="ten" class="form-control" 
+        	placeholder="họ tên">
+        	<br>
+        	
+        	<input type="email" name="email" class="form-control"
+        	placeholder="email">        	
+        	<br>
+        	
+        	<input type="password" name="pass" class="form-control"
+        	placeholder="mất khậu">
+        	<br>
+        	
+        	<select name="gioitinh" class="form-control">
+			  <option>Nam</option>
+			  <option>Nữ</option>			  
+			</select>
+       		<br>
+       		
+        	<input type="date" name="namsinh" class="form-control"
+        	placeholder="Năm sinh">
+        	<br>
+      
+        	<textarea name="chitiet" class="form-control" rows="3"></textarea>
+        	<br>
+        	<input type="file" name="img" >
+        	<br>
+        	<input type="submit" value="Đăng ký" class="btn btn-info">
+        	<button type="button" class="btn btn-default" data-dismiss="modal">thoát</button>
+        	
+        </form>
+      </div>
+      
+    </div>
+  </div>
+</div>
 </body>
 </html>
